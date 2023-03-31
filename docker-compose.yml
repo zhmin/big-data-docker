@@ -1,0 +1,16 @@
+version: '2'
+name: big_data
+services:
+  namenode:
+    image: hadoop2-namenode
+    build: ./hadoop2/namenode
+    ports:
+      - "50070:50070"
+  datanode:
+    image: hadoop2-datanode
+    build: ./hadoop2/datanode
+    ports:
+      - "50075:50075"
+  hive2:
+    image: hive2
+    build: ./hive2

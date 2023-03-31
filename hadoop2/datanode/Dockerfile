@@ -8,6 +8,6 @@ ENV HADOOP_HOME=/opt/hadoop-2.10.1/
 COPY core-site.xml /opt/hadoop-2.10.1/etc/hadoop/core-site.xml
 COPY hdfs-site.xml /opt/hadoop-2.10.1/etc/hadoop/hdfs-site.xml
 
-EXPOSE 50075 50020
+EXPOSE 50075
 
 CMD ["sh", "-c", "$HADOOP_HOME/bin/hdfs datanode"]

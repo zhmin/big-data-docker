@@ -10,6 +10,6 @@ COPY hdfs-site.xml /opt/hadoop-2.10.1/etc/hadoop/hdfs-site.xml
 
 RUN $HADOOP_HOME/bin/hdfs namenode -format -force
 
-EXPOSE 9000 50070
+EXPOSE 50070
 
 CMD ["sh", "-c", "$HADOOP_HOME/bin/hdfs namenode"]
