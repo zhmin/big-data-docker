@@ -1,5 +1,11 @@
 # big-data-docker
 
+## openjdk11
+
+```shell
+docker build -t openjdk11 ./openjdk
+```
+
 ## hadoop
 
 ```shell
