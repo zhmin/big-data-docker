@@ -3,7 +3,7 @@
 ## openjdk11
 
 ```shell
-docker build -t openjdk11 ./openjdk
+docker build -t openjdk11 ./openjdk11
 ```
 
 ## hadoop
