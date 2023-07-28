@@ -22,3 +22,4 @@ RUN apt-get update \
     && java  --version \
     && javac --version \
     && jlink --version
+CMD ["bash"]
